@@ -9,17 +9,17 @@ const Trafficlight = () => {
   return (
     <div className="trafficlight">
         <div 
-	         onClick={() => {setColor("red")}
-	         className={
+	         onClick={() => setColor("red")}
+	         className= {
 			 "light red" + (color === "red" ? " glow " : "")}>
 	        </div>
         <div 
-	         onClick={() => {setColor("red")}
+	         onClick={() => setColor("yellow")}
 	         className={
 			 "light yellow" + (color === "yellow" ? " glow " : "")}>
 	        </div>
         <div 
-	         onClick={() => {setColor("red")}
+	         onClick={() => setColor("green")}
 	         className={
 			 "light green" + (color === "green" ? " glow " : "")}>
 	        </div>
